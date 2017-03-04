@@ -1,0 +1,28 @@
+{
+  "name": "wclisboa-2017",
+  "description": "WordPress theme for WordCamp Lisboa 2017.",
+  "authors": [
+    {
+      "name": "Sérgio Santos",
+      "email": "me@s3rgiosan.com",
+      "homepage": "http://s3rgiosan.com"
+    },
+    {
+      "name": "WordPress Portugal",
+      "email": "info@wp-portugal.com",
+      "homepage": "http://wp-portugal.com"
+    }
+  ],
+  "type": "wordpress-theme",
+  "keywords": [
+    "wordpress",
+    "theme",
+    "wordcamp",
+    "lisboa",
+    "2017"
+  ],
+  "license": "ISC",
+  "autoload": {},
+  "require": {},
+  "require-dev": {}
+}
