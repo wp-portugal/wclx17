@@ -1,5 +1,7 @@
 # WordCamp Lisboa 2017 Theme
 
+Child theme based on Twenty Seventeen.
+
 ## Requirements
 
 * [Composer](https://getcomposer.org/)
@@ -9,9 +11,22 @@
 * [stylelint](https://github.com/stylelint/stylelint)
 * [GraphicsMagick](http://www.graphicsmagick.org/) (for `gulp-unretina`)
 
-## Setup
+## Build
 
 1. The header comment metadata can be edited at `src/styles/_meta.scss`.
 2. Run `composer install` to install PHP dependencies.
 3. Run `npm install` to setup the build tools.
 4. Run `npm run-script build` to generate public site assets from sources.
+
+## Setup
+
+* Font: PT Sans (Google Fonts)
+
+* Site Icon
+![Site Icon](public/images/icon.png)
+
+* Logo
+![Logo](public/images/logo.png)
+
+* Header Image
+![Header Image](public/images/banner.jpg)
