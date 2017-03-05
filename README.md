@@ -20,7 +20,13 @@ Child theme based on Twenty Seventeen.
 
 ## Setup
 
-* [Site Font - PT Sans](https://fonts.google.com/specimen/PT+Sans)
+* Site Font
+
+[PT Sans](https://fonts.google.com/specimen/PT+Sans)
+```css
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700');
+```
+
 * [Site Icon](public/images/icon.png)
 * [Logo](public/images/logo.png)
 * [Header Image](public/images/banner.jpg)
