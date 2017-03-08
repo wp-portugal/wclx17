@@ -1,4 +1,4 @@
-# WordCamp Lisboa 2017 Theme
+# WordCamp Lisboa 2017
 
 Child theme based on Twenty Seventeen.
 
@@ -27,6 +27,12 @@ Child theme based on Twenty Seventeen.
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700');
 ```
 
-* [Site Icon](public/images/icon.png)
-* [Logo](public/images/logo.png)
-* [Header Image](public/images/banner.jpg)
+* [Site Icon](public/images/icon@2x.png)
+* [Logo](public/images/logo@2x.png)
+* [Header Image](public/images/banner@2x.jpg)
+
+## Assets
+
+* SVG
+  * [Logo Horizontal](assets/svg/logo-horz.svg)
+  * [Logo Vertical](assets/svg/logo-vert.svg)
