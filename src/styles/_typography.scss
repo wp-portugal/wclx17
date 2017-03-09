@@ -1,0 +1,10 @@
+// stylelint-disable selector-no-type
+
+body,
+button,
+input,
+select,
+textarea {
+  color: $gray;
+  font-family: $font-family-sans-serif;
+}

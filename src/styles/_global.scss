@@ -1,0 +1,21 @@
+// stylelint-disable selector-no-type
+// stylelint-disable selector-no-universal
+
+body {
+  color: $gray;
+  font-family: $font-family-sans-serif;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: $light-blue;
+
+  &:hover,
+  &:active {
+    color: $blue;
+  }
+}

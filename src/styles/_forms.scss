@@ -1,0 +1,18 @@
+// stylelint-disable selector-no-type
+
+button,
+input[type="button"],
+input[type="submit"] {
+  background-color: $light-blue;
+  font-weight: $font-weight-normal;
+  text-transform: uppercase;
+}
+
+button:hover,
+button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background: $blue;
+}

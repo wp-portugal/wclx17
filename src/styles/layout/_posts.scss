@@ -1,0 +1,18 @@
+// stylelint-disable selector-no-type
+
+.entry-header .entry-title {
+  color: $dark-blue;
+}
+
+.entry-title a {
+  color: $light-blue;
+}
+
+.entry-meta {
+  color: $gray;
+  font-weight: $font-weight-normal;
+}
+
+.entry-meta a {
+  color: $gray;
+}

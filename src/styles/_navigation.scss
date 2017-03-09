@@ -1,0 +1,40 @@
+// stylelint-disable selector-no-type
+
+.navigation-top a {
+  color: $gray;
+  font-weight: $font-weight-normal;
+  text-transform: uppercase;
+}
+
+.main-navigation a:hover {
+  color: #767676;
+}
+
+@media screen and (min-width: $breakpoint-medium) {
+
+  .site-header .menu-scroll-down {
+    display: none;
+  }
+
+  .navigation-top .button {
+    display: inline;
+    float: right;
+    margin-left: 1.5em;
+
+    a {
+      background-color: $light-blue;
+      border-radius: 2px;
+      color: white;
+      cursor: pointer;
+      display: inline-block;
+      padding: 1em 2em;
+      transition: background .2s;
+
+      &:hover,
+      &:focus {
+        background: $blue;
+        color: white;
+      }
+    }
+  }
+}
