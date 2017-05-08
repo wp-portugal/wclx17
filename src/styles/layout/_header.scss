@@ -1,5 +1,18 @@
 // stylelint-disable selector-no-type
 
+.site-branding {
+  padding: 100px 0;
+}
+
+.has-header-image.twentyseventeen-front-page .custom-header-media img {
+  bottom: 0;
+  position: absolute;
+}
+
+body.home.title-tagline-hidden.has-header-image .custom-logo-link img {
+  max-height: 80px;
+}
+
 @media screen and (min-width: $breakpoint-medium) {
 
   .has-header-image.twentyseventeen-front-page .custom-header,
