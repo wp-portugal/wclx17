@@ -1,0 +1,29 @@
+// stylelint-disable selector-no-type
+
+@media screen and (min-width: $breakpoint-medium) {
+
+  .has-header-image.twentyseventeen-front-page .custom-header,
+  .has-header-video.twentyseventeen-front-page .custom-header,
+  .has-header-image.home.blog .custom-header,
+  .has-header-video.home.blog .custom-header {
+    height: 50vh;
+  }
+
+  // stylelint-disable selector-max-specificity
+  .admin-bar.twentyseventeen-front-page.has-header-image .custom-header-image,
+  .admin-bar.home.blog.has-header-image .custom-header-image {
+    height: calc(50vh - 32px);
+  }
+}
+
+@media screen and (max-width: $breakpoint-medium) {
+
+  .has-header-image.twentyseventeen-front-page .custom-header,
+  .has-header-video.twentyseventeen-front-page .custom-header,
+  .has-header-image.home.blog .custom-header,
+  .has-header-video.home.blog .custom-header {
+    display: block;
+    height: 50vh;
+    width: auto;
+  }
+}
