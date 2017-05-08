@@ -1,10 +1,12 @@
 // stylelint-disable selector-no-type
+// stylelint-disable selector-max-specificity
 
 .site-branding {
   padding: 100px 0;
 }
 
-.has-header-image.twentyseventeen-front-page .custom-header-media img {
+.has-header-image.twentyseventeen-front-page .custom-header-media img,
+.has-header-image.home.blog .custom-header-media img {
   bottom: 0;
   position: absolute;
 }
@@ -22,7 +24,6 @@ body.home.title-tagline-hidden.has-header-image .custom-logo-link img {
     height: 50vh;
   }
 
-  // stylelint-disable selector-max-specificity
   .admin-bar.twentyseventeen-front-page.has-header-image .custom-header-image,
   .admin-bar.home.blog.has-header-image .custom-header-image {
     height: calc(50vh - 32px);
