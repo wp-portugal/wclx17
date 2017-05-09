@@ -7,8 +7,6 @@
 }
 
 #tix-attendees li {
-  align-items: center;
-  display: flex;
   height: auto;
   margin-bottom: 2em;
 }
@@ -18,7 +16,7 @@
 }
 
 #tix-attendees .tix-field {
-  margin: 0 1em 1em;
+  margin: 0 1em 0 4.5em;
 }
 
 #tix-attendees .tix-columns-3 li {
