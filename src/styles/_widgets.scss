@@ -2,17 +2,23 @@
 // stylelint-disable selector-no-id
 // stylelint-disable selector-max-specificity
 
-#tix-attendees .tix-field {
-  margin: 0 1em 0 4.5em;
-}
-
 #tix-attendees ul {
   padding: 0;
 }
 
 #tix-attendees li {
+  align-items: center;
+  display: flex;
   height: auto;
   margin-bottom: 2em;
+}
+
+#tix-attendees .avatar {
+  border-radius: 50%;
+}
+
+#tix-attendees .tix-field {
+  margin: 0 1em 1em;
 }
 
 #tix-attendees .tix-columns-3 li {
