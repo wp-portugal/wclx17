@@ -5,14 +5,13 @@
   padding: 100px 0;
 }
 
-.has-header-image.twentyseventeen-front-page .custom-header-media img,
-.has-header-image.home.blog .custom-header-media img {
-  bottom: 0;
-  position: absolute;
-}
-
-body.home.title-tagline-hidden.has-header-image .custom-logo-link img {
-  max-height: 80px;
+.has-header-image.twentyseventeen-front-page .site-branding,
+.has-header-video.twentyseventeen-front-page .site-branding,
+.has-header-image.home.blog .site-branding,
+.has-header-video.home.blog .site-branding {
+  display: block;
+  height: auto;
+  vertical-align: baseline;
 }
 
 .custom-header,
@@ -23,6 +22,16 @@ body.home.title-tagline-hidden.has-header-image .custom-logo-link img {
   display: block;
   height: 45vh;
   width: auto;
+}
+
+.has-header-image.twentyseventeen-front-page .custom-header-media img,
+.has-header-image.home.blog .custom-header-media img {
+  bottom: 0;
+  position: absolute;
+}
+
+body.home.title-tagline-hidden.has-header-image .custom-logo-link img {
+  max-height: 80px;
 }
 
 @media screen and (min-width: $breakpoint-medium) {
