@@ -1,11 +1,13 @@
 // stylelint-disable selector-no-type
+// stylelint-disable selector-max-specificity
+// stylelint-disable selector-no-id
 
 .twentyseventeen-front-page .page-header,
 .home.blog .page-header {
   display: none;
 }
 
-body.page-slug-participantes #primary {
+body.page-two-column.page-slug-participantes #primary {
 
   .entry-header {
     display: none;
