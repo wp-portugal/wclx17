@@ -43,6 +43,10 @@ body.home.title-tagline-hidden.has-header-image .custom-logo-link img {
     margin-bottom: 72px !important;
   }
 
+  .custom-header-media::before {
+    height: 33%;
+  }
+
   .has-header-image.twentyseventeen-front-page .custom-header-media,
   .has-header-image.home.blog .custom-header-media {
     bottom: 0;
@@ -51,10 +55,6 @@ body.home.title-tagline-hidden.has-header-image .custom-logo-link img {
     position: absolute;
     right: 0;
     top: 0;
-
-    &::before {
-      height: 33%;
-    }
   }
 
   .admin-bar.twentyseventeen-front-page.has-header-image .custom-header-image,
