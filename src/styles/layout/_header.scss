@@ -35,7 +35,11 @@ body.home.title-tagline-hidden.has-header-image .custom-logo-link img {
 
   .has-header-image.twentyseventeen-front-page .site-branding,
   .has-header-image.home.blog .site-branding {
+    bottom: auto;
+    left: auto;
     margin-bottom: 0 !important;
+    padding-top: 100px;
+    position: relative;
   }
 
   .has-header-image.twentyseventeen-front-page .custom-header,
