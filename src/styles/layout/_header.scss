@@ -51,6 +51,10 @@ body.home.title-tagline-hidden.has-header-image .custom-logo-link img {
     position: absolute;
     right: 0;
     top: 0;
+
+    &::before {
+      height: 33%;
+    }
   }
 
   .admin-bar.twentyseventeen-front-page.has-header-image .custom-header-image,
