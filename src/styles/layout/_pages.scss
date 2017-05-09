@@ -7,10 +7,13 @@
   display: none;
 }
 
+body.page-two-column.page-slug-code-of-conduct #primary,
 body.page-two-column.page-slug-codigo-de-conduta #primary,
 body.page-two-column.page-slug-contactos #primary,
 body.page-two-column.page-slug-participantes #primary,
-body.page-two-column.page-slug-patrocinar #primary {
+body.page-two-column.page-slug-patrocinar #primary,
+body.page-two-column.page-slug-sponsoring #primary,
+body.page-two-column.page-slug-wc-lisboa-in-english #primary {
 
   .entry-header {
     display: none;
