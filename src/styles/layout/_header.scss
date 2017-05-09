@@ -2,10 +2,6 @@
 // stylelint-disable selector-max-specificity
 // stylelint-disable declaration-no-important
 
-.site-branding {
-  padding: 100px 0;
-}
-
 .has-header-image.twentyseventeen-front-page .site-branding,
 .has-header-image.home.blog .site-branding {
   display: block;
@@ -38,7 +34,7 @@ body.home.title-tagline-hidden.has-header-image .custom-logo-link img {
     bottom: auto;
     left: auto;
     margin-bottom: 0 !important;
-    padding-top: 100px;
+    padding-top: 3em;
     position: relative;
   }
 
