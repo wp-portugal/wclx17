@@ -1,14 +1,13 @@
 // stylelint-disable selector-no-type
 // stylelint-disable selector-max-specificity
+// stylelint-disable declaration-no-important
 
 .site-branding {
   padding: 100px 0;
 }
 
 .has-header-image.twentyseventeen-front-page .site-branding,
-.has-header-video.twentyseventeen-front-page .site-branding,
-.has-header-image.home.blog .site-branding,
-.has-header-video.home.blog .site-branding {
+.has-header-image.home.blog .site-branding {
   display: block;
   height: auto;
   vertical-align: baseline;
@@ -16,9 +15,7 @@
 
 .custom-header,
 .has-header-image.twentyseventeen-front-page .custom-header,
-.has-header-video.twentyseventeen-front-page .custom-header,
-.has-header-image.home.blog .custom-header,
-.has-header-video.home.blog .custom-header {
+.has-header-image.home.blog .custom-header {
   display: block;
   height: 45vh;
   width: auto;
@@ -35,6 +32,26 @@ body.home.title-tagline-hidden.has-header-image .custom-logo-link img {
 }
 
 @media screen and (min-width: $breakpoint-medium) {
+
+  .has-header-image.twentyseventeen-front-page .site-branding,
+  .has-header-image.home.blog .site-branding {
+    margin-bottom: 0 !important;
+  }
+
+  .has-header-image.twentyseventeen-front-page .custom-header,
+  .has-header-image.home.blog .custom-header {
+    margin-bottom: 72px !important;
+  }
+
+  .has-header-image.twentyseventeen-front-page .custom-header-media,
+  .has-header-image.home.blog .custom-header-media {
+    bottom: 0;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 
   .admin-bar.twentyseventeen-front-page.has-header-image .custom-header-image,
   .admin-bar.home.blog.has-header-image .custom-header-image {
