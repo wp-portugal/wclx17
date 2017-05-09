@@ -1,6 +1,11 @@
 // stylelint-disable selector-no-type
 
-.page-slug-participantes {
+.twentyseventeen-front-page .page-header,
+.home.blog .page-header {
+  display: none;
+}
+
+body.page-slug-participantes #primary {
 
   .entry-header {
     display: none;

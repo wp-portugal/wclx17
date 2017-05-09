@@ -12,6 +12,11 @@
 
 @media screen and (min-width: $breakpoint-medium) {
 
+  .main-navigation li li:hover,
+  .main-navigation li li.focus {
+    background: $blue;
+  }
+
   .site-header .menu-scroll-down {
     display: none;
   }
