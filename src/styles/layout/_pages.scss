@@ -11,7 +11,6 @@ body.page-two-column.page-slug-code-of-conduct #primary,
 body.page-two-column.page-slug-codigo-de-conduta #primary,
 body.page-two-column.page-slug-contactos #primary,
 body.page-two-column.page-slug-oradores #primary,
-body.page-two-column.page-slug-participantes #primary,
 body.page-two-column.page-slug-patrocinar #primary,
 body.page-two-column.page-slug-sponsoring #primary,
 body.page-two-column.page-slug-wc-lisboa-in-english #primary {
@@ -22,6 +21,10 @@ body.page-two-column.page-slug-wc-lisboa-in-english #primary {
 
   .entry-content {
     float: left;
-    width: 100%;
+    width: 75%;
   }
+}
+
+body.page-two-column.page-slug-participantes #primary .entry-content {
+  width: 100%;
 }
