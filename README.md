@@ -31,6 +31,7 @@ Child theme based on Twenty Seventeen.
 
 ## Assets
 
-* SVG
-  * [Logo Horizontal](assets/svg/logo-horz.svg)
-  * [Logo Vertical](assets/svg/logo-vert.svg)
+* [Logo Horizontal](assets/images/logo-horz.svg)
+* [Logo Vertical](assets/images/logo-vert.svg)
+* [Facebook Cover](assets/images/facebook-cover.jpg)
+* [Twitter Cover](assets/images/twitter-cover.jpg)
